@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="AtPay\CustomPayment\Api\ConnectInterface" type="AtPay\CustomPayment\Model\Connect" />
+    <preference for="AtPay\CustomPayment\Api\OrderInterface" type="AtPay\CustomPayment\Model\Order" />
+    <preference for="AtPay\CustomPayment\Api\ProductsInterface" type="AtPay\CustomPayment\Model\Products" />
+    <preference for="AtPay\CustomPayment\Api\StatusInterface" type="AtPay\CustomPayment\Model\Status" />
+    <preference for="AtPay\CustomPayment\Api\DisconnectInterface" type="AtPay\CustomPayment\Model\Disconnect" />
+</config>
